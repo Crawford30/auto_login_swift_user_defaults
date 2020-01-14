@@ -24,9 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //============check if there is nay key in the application or not, user default======
     func check() {
         //=== != nil, means it exist===
-        if UserDefaults.standard.value(forKey: "userkey") != nil {
+        if UserDefaults.standard.value(forKey: "user") != nil {
             
-            let vc = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(identifier: "HomeVC")
+            let vc = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(identifier: "Home")
             
             //=====creating a navigation controller==
             let navVC = UINavigationController(rootViewController: vc)

@@ -25,7 +25,7 @@ class HomeVC: UIViewController {
     //===============log out=====
     @IBAction func onClickedlogout(_ sender: Any) {
         //===removing the key on logout tapped===
-        UserDefaults.standard.removeObject(forKey: "userkey")
+        UserDefaults.standard.removeObject(forKey: "user")
         
         //====restore the root view controller or set a root view contoller, setting a login screen as the root view contoller==
         let vc = storyboard?.instantiateViewController(identifier: "signInViewController")
