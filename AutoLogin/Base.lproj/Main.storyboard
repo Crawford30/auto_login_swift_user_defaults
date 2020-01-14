@@ -69,7 +69,7 @@
         <!--HomeVC-->
         <scene sceneID="AOa-II-04s">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="gsy-Wc-NSJ" customClass="HomeVC" customModule="AutoLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="gsy-Wc-NSJ" customClass="HomeVC" customModule="AutoLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wtg-ZF-Ej6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

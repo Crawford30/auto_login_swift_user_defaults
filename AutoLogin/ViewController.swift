@@ -35,8 +35,8 @@ class ViewController: UIViewController {
         if user == username.text! && psw == password.text! {
             
             //=====saving some data on user defaults storage===
-            UserDefaults.standard.set(username.text!, forKey: "user")
-            let vc = storyboard?.instantiateViewController(identifier: "HomeVC")
+            UserDefaults.standard.set(username.text!, forKey: "userkey")
+            let vc = storyboard?.instantiateViewController(identifier: "Home")
             
             //=====pushing to the Home view contoller on login====
 navigationController?.pushViewController(vc!, animated: true)
